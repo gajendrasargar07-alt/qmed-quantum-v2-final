@@ -1,0 +1,60 @@
+CITY DIAGNOSTICS & GENOMICS CENTER          Reg. No: DX-2026-88412
+Fine Needle Aspiration (FNA) Cytology Report — Breast Mass
+Patient: (de-identified)        Age: 47 F        Date: 2026-09-01
+
+QUANTITATIVE CYTOLOGY MEASUREMENTS (digital image analysis, 30-cell average)
+Mean radius              : 17.99
+Mean texture             : 10.38
+Mean perimeter           : 122.80
+Mean area                : 1001.0
+Mean smoothness          : 0.1184
+Mean compactness         : 0.2776
+Mean concavity           : 0.3001
+Mean concave points      : 0.1471
+Mean symmetry            : 0.2419
+Mean fractal dimension   : 0.07871
+Radius error             : 1.095
+Texture error            : 0.9053
+Perimeter error          : 8.589
+Area error               : 153.4
+Smoothness error         : 0.006399
+Compactness error        : 0.04904
+Concavity error          : 0.05373
+Concave points error     : 0.01587
+Symmetry error           : 0.03003
+Fractal dimension error  : 0.006193
+Worst radius             : 25.38
+Worst texture            : 17.33
+Worst perimeter          : 184.6
+Worst area               : 2019.0
+Worst smoothness         : 0.1622
+Worst compactness        : 0.6656
+Worst concavity          : 0.7119
+Worst concave points     : 0.2654
+Worst symmetry           : 0.4601
+Worst fractal dimension  : 0.1189
+
+BIOMARKER PANEL
+ER (Estrogen Receptor)   : Positive (90%, strong)
+PR (Progesterone Receptor): Positive (70%, moderate)
+HER2                     : Negative (IHC 1+)
+Ki-67                    : 28% (elevated proliferation index)
+CA 15-3                  : 34 U/mL (ref < 31)
+TP53 sequencing          : No pathogenic variant detected
+BRCA1                    : Negative for pathogenic variant
+BRCA2                    : Negative for pathogenic variant
+
+RAW DNA GENOTYPE PANEL (SNP chip export, rsID / genotype)
+rs2981582: AG
+rs3803662: TT
+rs889312: AC
+rs3817198: CC
+rs13281615: GG
+rs13387042: AA
+rs4973768: CT
+rs10941679: GG
+rs2046210: AA
+rs1045485: CG
+
+IMPRESSION: Suspicious cytology. Recommend histopathological correlation.
+Report generated for QMed-Quantum demonstration — Team Synergy 6, SIH 2026.

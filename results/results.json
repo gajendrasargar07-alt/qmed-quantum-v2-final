@@ -1,0 +1,335 @@
+{
+  "dataset": {
+    "name": "Breast Cancer Wisconsin (Diagnostic)",
+    "samples": 569,
+    "features": 30,
+    "positive_class": "malignant",
+    "test_size": 114,
+    "qubits": 4,
+    "pca_explained_variance": [
+      0.4459,
+      0.1855,
+      0.0958,
+      0.0659
+    ]
+  },
+  "models": {
+    "Logistic Regression": {
+      "accuracy": 0.9649,
+      "precision": 0.975,
+      "sensitivity_recall": 0.9286,
+      "specificity": 0.9861,
+      "f1": 0.9512,
+      "roc_auc": 0.996,
+      "confusion_matrix": {
+        "tn": 71,
+        "fp": 1,
+        "fn": 3,
+        "tp": 39
+      },
+      "threshold": 0.5,
+      "train_time_s": 0.006,
+      "inference_ms_per_sample": 0.0021,
+      "type": "classical",
+      "early_detection_mode": {
+        "accuracy": 0.9825,
+        "precision": 0.9762,
+        "sensitivity_recall": 0.9762,
+        "specificity": 0.9861,
+        "f1": 0.9762,
+        "roc_auc": 0.996,
+        "confusion_matrix": {
+          "tn": 71,
+          "fp": 1,
+          "fn": 1,
+          "tp": 41
+        },
+        "threshold": 0.24
+      }
+    },
+    "Random Forest": {
+      "accuracy": 0.9649,
+      "precision": 1.0,
+      "sensitivity_recall": 0.9048,
+      "specificity": 1.0,
+      "f1": 0.95,
+      "roc_auc": 0.9942,
+      "confusion_matrix": {
+        "tn": 72,
+        "fp": 0,
+        "fn": 4,
+        "tp": 38
+      },
+      "threshold": 0.5,
+      "train_time_s": 0.297,
+      "inference_ms_per_sample": 0.0968,
+      "type": "classical",
+      "early_detection_mode": {
+        "accuracy": 0.9298,
+        "precision": 0.84,
+        "sensitivity_recall": 1.0,
+        "specificity": 0.8889,
+        "f1": 0.913,
+        "roc_auc": 0.9942,
+        "confusion_matrix": {
+          "tn": 64,
+          "fp": 8,
+          "fn": 0,
+          "tp": 42
+        },
+        "threshold": 0.145
+      }
+    },
+    "Classical SVM (RBF)": {
+      "accuracy": 0.9649,
+      "precision": 0.9524,
+      "sensitivity_recall": 0.9524,
+      "specificity": 0.9722,
+      "f1": 0.9524,
+      "roc_auc": 0.9947,
+      "confusion_matrix": {
+        "tn": 70,
+        "fp": 2,
+        "fn": 2,
+        "tp": 40
+      },
+      "threshold": 0.5,
+      "train_time_s": 0.013,
+      "inference_ms_per_sample": 0.0086,
+      "type": "classical",
+      "early_detection_mode": {
+        "accuracy": 0.9737,
+        "precision": 0.9535,
+        "sensitivity_recall": 0.9762,
+        "specificity": 0.9722,
+        "f1": 0.9647,
+        "roc_auc": 0.9947,
+        "confusion_matrix": {
+          "tn": 70,
+          "fp": 2,
+          "fn": 1,
+          "tp": 41
+        },
+        "threshold": 0.275
+      }
+    },
+    "Quantum Kernel SVM (QSVC)": {
+      "accuracy": 0.9825,
+      "precision": 0.9762,
+      "sensitivity_recall": 0.9762,
+      "specificity": 0.9861,
+      "f1": 0.9762,
+      "roc_auc": 0.9974,
+      "confusion_matrix": {
+        "tn": 71,
+        "fp": 1,
+        "fn": 1,
+        "tp": 41
+      },
+      "threshold": 0.5,
+      "train_time_s": 0.002,
+      "inference_ms_per_sample": 0.0026,
+      "type": "hybrid_quantum",
+      "train_samples": 200,
+      "early_detection_mode": {
+        "accuracy": 0.9825,
+        "precision": 0.9762,
+        "sensitivity_recall": 0.9762,
+        "specificity": 0.9861,
+        "f1": 0.9762,
+        "roc_auc": 0.9974,
+        "confusion_matrix": {
+          "tn": 71,
+          "fp": 1,
+          "fn": 1,
+          "tp": 41
+        },
+        "threshold": 0.44
+      }
+    },
+    "Variational Quantum Classifier (VQC)": {
+      "accuracy": 0.8246,
+      "precision": 1.0,
+      "sensitivity_recall": 0.5238,
+      "specificity": 1.0,
+      "f1": 0.6875,
+      "roc_auc": 0.9643,
+      "confusion_matrix": {
+        "tn": 72,
+        "fp": 0,
+        "fn": 20,
+        "tp": 22
+      },
+      "threshold": 0.5,
+      "train_time_s": 214.057,
+      "inference_ms_per_sample": 6.1969,
+      "type": "hybrid_quantum",
+      "train_samples": 200,
+      "vqc_loss_history": [
+        0.6926,
+        0.6466,
+        0.5995,
+        0.5399,
+        0.5257,
+        0.513,
+        0.4985,
+        0.4863,
+        0.4871,
+        0.4807,
+        0.4783,
+        0.4774,
+        0.4767,
+        0.4754,
+        0.4738,
+        0.4744,
+        0.4735,
+        0.4737,
+        0.4724,
+        0.4758,
+        0.472,
+        0.474,
+        0.4744,
+        0.4743,
+        0.475,
+        0.4753,
+        0.474,
+        0.4755,
+        0.4744,
+        0.4745,
+        0.4736,
+        0.4732,
+        0.4758,
+        0.4754,
+        0.4739,
+        0.4762,
+        0.475,
+        0.4747,
+        0.4737,
+        0.476,
+        0.475,
+        0.4773,
+        0.4745,
+        0.4758,
+        0.475
+      ],
+      "early_detection_mode": {
+        "accuracy": 0.8421,
+        "precision": 0.7069,
+        "sensitivity_recall": 0.9762,
+        "specificity": 0.7639,
+        "f1": 0.82,
+        "roc_auc": 0.9643,
+        "confusion_matrix": {
+          "tn": 55,
+          "fp": 17,
+          "fn": 1,
+          "tp": 41
+        },
+        "threshold": 0.31
+      }
+    }
+  },
+  "feature_names": [
+    "mean radius",
+    "mean texture",
+    "mean perimeter",
+    "mean area",
+    "mean smoothness",
+    "mean compactness",
+    "mean concavity",
+    "mean concave points",
+    "mean symmetry",
+    "mean fractal dimension",
+    "radius error",
+    "texture error",
+    "perimeter error",
+    "area error",
+    "smoothness error",
+    "compactness error",
+    "concavity error",
+    "concave points error",
+    "symmetry error",
+    "fractal dimension error",
+    "worst radius",
+    "worst texture",
+    "worst perimeter",
+    "worst area",
+    "worst smoothness",
+    "worst compactness",
+    "worst concavity",
+    "worst concave points",
+    "worst symmetry",
+    "worst fractal dimension"
+  ],
+  "best_model": "Quantum Kernel SVM (QSVC)",
+  "tuned_thresholds": {
+    "Logistic Regression": 0.24,
+    "Random Forest": 0.145,
+    "Classical SVM (RBF)": 0.275,
+    "Quantum Kernel SVM (QSVC)": 0.44,
+    "Variational Quantum Classifier (VQC)": 0.31
+  },
+  "explainability": {
+    "method": "Permutation importance (ROC-AUC drop, 10 repeats)",
+    "top_classical_features": [
+      {
+        "feature": "worst area",
+        "importance": 0.0121
+      },
+      {
+        "feature": "worst concave points",
+        "importance": 0.0101
+      },
+      {
+        "feature": "worst perimeter",
+        "importance": 0.0076
+      },
+      {
+        "feature": "worst radius",
+        "importance": 0.0076
+      },
+      {
+        "feature": "area error",
+        "importance": 0.0054
+      },
+      {
+        "feature": "mean concave points",
+        "importance": 0.0034
+      },
+      {
+        "feature": "worst texture",
+        "importance": 0.002
+      },
+      {
+        "feature": "worst concavity",
+        "importance": 0.0019
+      },
+      {
+        "feature": "mean area",
+        "importance": 0.0016
+      },
+      {
+        "feature": "mean texture",
+        "importance": 0.0015
+      }
+    ],
+    "top_quantum_components": [
+      {
+        "component": "Quantum feature PC1",
+        "importance": 0.3915
+      },
+      {
+        "component": "Quantum feature PC2",
+        "importance": 0.0979
+      },
+      {
+        "component": "Quantum feature PC4",
+        "importance": 0.0083
+      },
+      {
+        "component": "Quantum feature PC3",
+        "importance": 0.0026
+      }
+    ]
+  }
+}
